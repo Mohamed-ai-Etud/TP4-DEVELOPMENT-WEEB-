@@ -1,0 +1,83 @@
+.courtnaire{
+  display: grid;
+  gap:10px;
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-areas:
+  "blastlogo blastlogo blastlogo"
+  "aassir atay qhiwa"
+  "avoca monada lma"
+  "devinfo devinfo devinfo"
+}
+.blastlogo{
+  grid-area: blastlogo;
+  text-align: right;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ background-color: #222;
+ color: ghostwhite;
+}
+.aassir{
+  grid-area: aassir;
+  padding: 20px;
+  background-color: lightcyan;
+  text-align: center;
+}
+.atay{
+  grid-area: atay;
+  padding: 20px;
+  background-color: lightskyblue;
+  text-align: center;
+}
+.qhiwa{
+  grid-area: qhiwa;
+  padding: 20px;
+  background-color: lightslategray;
+  text-align: center;
+}
+.avoca{
+  grid-area: avoca;
+  text-align: center;
+  padding: 20px;
+  background-color: lightseagreen;
+}
+.monada{
+  grid-area: monada;
+  padding: 20px;
+  background-color: maroon;
+  text-align: center;
+}
+.lma{
+  grid-area: lma;
+  padding: 20px;
+  background-color: darkslategray;
+  text-align: center;
+}
+div:hover{
+  transform: scale(1.05);
+}
+.div{
+  transition: 0.3s;
+}
+img{
+  border-radius: 22px;
+  
+}
+button{
+  border: none;
+  transition: 0.3s;
+  border-radius: 2px;
+  background-color: #222;
+  color: ghostwhite;
+}
+button:hover{
+  transform: scale(1.05);
+  background-color: ghostwhite;
+  color: #222;
+}
+.devinfo{
+  grid-area: devinfo;
+  text-align: center;
+  font-size: 28px;
+  
+}
